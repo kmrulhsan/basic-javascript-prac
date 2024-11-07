@@ -47,11 +47,36 @@ let y = 2;
 //logical operator//
 //logical and (&&) if both operand true then the logic is true
 //logical or || if one of operand is true then logic is true
-let highIncome = false;
-let goodCredit = false;
-let eligibleForLoad = highIncome || goodCredit;
-console.log('Not Eligble', eligibleForLoad);
+// let highIncome = false;
+// let goodCredit = false;
+// let eligibleForLoad = highIncome || goodCredit;
+// console.log('Not Eligble', eligibleForLoad);
 
-//not opeartor (!)
-let refuseLoan = !eligibleForLoad;
-console.log('Refuse Loan', refuseLoan);
+// //not opeartor (!)
+// let refuseLoan = !eligibleForLoad;
+// console.log('Refuse Loan', refuseLoan);
+
+// logical operator with non boolean//
+// falsey (false)
+// undefined
+// null
+// 0
+// ''
+// NaN
+// false
+
+// let userColor = '';
+// let defaultColor = 'blue';
+// let selectedColor = userColor || defaultColor;
+// console.log(selectedColor);
+
+//excercise 1
+let a = 'red';
+let b = 'blue';
+
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
