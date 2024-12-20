@@ -1,14 +1,16 @@
-// let hour = 20;
+let hour = 20;
 
-// if (hour >= 6 && hour <12){
-//     console.log("Good morning");
-// }
-// else if (hour >= 12 && hour <18){
-//     console.log("Good afternoon");
-// }
-// else{
-//     console.log('Good evening');
-// }
+if (hour >= 6 && hour <12){
+    console.log("Good morning");
+}
+else if (hour >= 12 && hour <18){
+    console.log("Good afternoon");
+}
+else{
+    console.log('Good evening');
+}
+
+const greetings = (hour >= 6 && hour < 12) ? "Good morning" : (hour >= 12 && hour < 18) ? "Good afternoon" : "Good Evening";
 
 //switch case
 // let role = 'admin' ;
@@ -53,9 +55,13 @@
 // for(let key in person){
 //     console.log(key, person[key]);
 // }
-// const colors = ['blue', 'red', 'white'];
+const colors = ['blue', 'red', 'white'];
 // for(let index in colors)
 //     console.log(index, colors[index]);
+
+for (let i=0; i<colors.length; i++ ){
+    console.log(i, colors[i]);
+}
 
 // //for of
 // for(let color of colors)
@@ -114,8 +120,9 @@
 //ex-5
 showLimit(10)
 function showLimit(limit){
-    for(let i=0; i<=limit; i++){
+    for(let i=0w; i<=limit; i++){
         const message = (i%2 === 0)? 'EVEN':'ODD'
         console.log(i,message);
     }
 }
+

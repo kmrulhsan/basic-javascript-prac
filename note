@@ -1,0 +1,33 @@
+1. minimum of 2 number
+2. maximum of 3 number
+3. minimum of 3 number
+display seven days name according to number input
+display 12 months name according to number input
+display grade according to input marks
+display a mini calculator (+,-,*,/,%) 
+display celsius to farenheit or vice versa
+display circle area, perimeter, circumference
+display multiplication table of n
+display age status(adult, teen, old) according to age number
+display vowel or consonant of a string
+electricity bill calculation
+    0-100 units = 5 $
+    101-300 units = 6 $
+    301-500 units = 7 $
+    501-700 units = 8 $
+    701-900 units = 9 $
+    901- above = 10 $
+
+    150 = 100*5 + 50*6
+    550 = 100*5 + 200*6 + 200*7 + 50*8
+    350 = 100*5 + 200
+    450 = 100*5 + 200*6 + 150*7
+
+display leap year
+4. pallendrom check 
+5. factorial of a number 
+6. check if the number is prime or not
+7. sum of n digit (1+2+3+4+....+n) /(try with formula)
+
+**. check if the number is armstrong or not
+
