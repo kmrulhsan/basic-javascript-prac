@@ -145,8 +145,8 @@
 // console.log(items);
 
 //** reducing an array */
-const numbers = [1,-2,3,4];
+// const numbers = [1,-2,3,4];
 
-const sum = numbers.reduce((accumulator, currentvalue) =>  accumulator + currentvalue);
+// const sum = numbers.reduce((accumulator, currentvalue) =>  accumulator + currentvalue);
 
-console.log(sum);
+// console.log(sum);
